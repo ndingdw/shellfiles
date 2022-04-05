@@ -1,6 +1,6 @@
 #!/bin/bash
 
 echo "test run"
-if [[ $? -ne 0 ]]; then
+if ! echo " "; then
 	echo "sth is wrong"
 fi
